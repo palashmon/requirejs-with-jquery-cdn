@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script data-main="app" src="lib/require.js"></script>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+		<p>
+			Please open the <b>Developer Tools</b> and go to the Network panel, JS tab.<br/>
+			You will see the order in which js files are downloaded. <br/>
+			If you comment out <em><code>var c = require('./console');</code></em> code in the main.js file, <br/>you
+			will see that console.js file is not loaded as it is not required by main.js file.
+		<p>
+    </body>
+</html>
